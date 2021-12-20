@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B415BFCAEADED0A2C493D1A /* Pods_ExAlignedCollectionViewFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E980DF1168E6EEB015265BA /* Pods_ExAlignedCollectionViewFlowLayout.framework */; };
 		C69BE46327705AA3009DD9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69BE46227705AA3009DD9C4 /* AppDelegate.swift */; };
 		C69BE46527705AA3009DD9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69BE46427705AA3009DD9C4 /* SceneDelegate.swift */; };
 		C69BE46727705AA3009DD9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69BE46627705AA3009DD9C4 /* ViewController.swift */; };
-		C69BE46A27705AA3009DD9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69BE46827705AA3009DD9C4 /* Main.storyboard */; };
 		C69BE46D27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C69BE46B27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.xcdatamodeld */; };
 		C69BE46F27705AA4009DD9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69BE46E27705AA4009DD9C4 /* Assets.xcassets */; };
 		C69BE47227705AA4009DD9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69BE47027705AA4009DD9C4 /* LaunchScreen.storyboard */; };
+		C69BE47C27705B4B009DD9C4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69BE47B27705B4B009DD9C4 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E980DF1168E6EEB015265BA /* Pods_ExAlignedCollectionViewFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExAlignedCollectionViewFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74962020BD24D14744661606 /* Pods-ExAlignedCollectionViewFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExAlignedCollectionViewFlowLayout.release.xcconfig"; path = "Target Support Files/Pods-ExAlignedCollectionViewFlowLayout/Pods-ExAlignedCollectionViewFlowLayout.release.xcconfig"; sourceTree = "<group>"; };
 		C69BE45F27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExAlignedCollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69BE46227705AA3009DD9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69BE46427705AA3009DD9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C69BE46627705AA3009DD9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C69BE46927705AA3009DD9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69BE46C27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExAlignedCollectionViewFlowLayout.xcdatamodel; sourceTree = "<group>"; };
 		C69BE46E27705AA4009DD9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69BE47127705AA4009DD9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69BE47327705AA4009DD9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69BE47B27705B4B009DD9C4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EEC7B781F67F97505608FEAD /* Pods-ExAlignedCollectionViewFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExAlignedCollectionViewFlowLayout.debug.xcconfig"; path = "Target Support Files/Pods-ExAlignedCollectionViewFlowLayout/Pods-ExAlignedCollectionViewFlowLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B415BFCAEADED0A2C493D1A /* Pods_ExAlignedCollectionViewFlowLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87E3B6615DCD0800B2A2829D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEC7B781F67F97505608FEAD /* Pods-ExAlignedCollectionViewFlowLayout.debug.xcconfig */,
+				74962020BD24D14744661606 /* Pods-ExAlignedCollectionViewFlowLayout.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF4728FFC05862028DE7E93B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E980DF1168E6EEB015265BA /* Pods_ExAlignedCollectionViewFlowLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C69BE45627705AA3009DD9C4 = {
 			isa = PBXGroup;
 			children = (
 				C69BE46127705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout */,
 				C69BE46027705AA3009DD9C4 /* Products */,
+				87E3B6615DCD0800B2A2829D /* Pods */,
+				AF4728FFC05862028DE7E93B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,11 +85,11 @@
 				C69BE46227705AA3009DD9C4 /* AppDelegate.swift */,
 				C69BE46427705AA3009DD9C4 /* SceneDelegate.swift */,
 				C69BE46627705AA3009DD9C4 /* ViewController.swift */,
-				C69BE46827705AA3009DD9C4 /* Main.storyboard */,
 				C69BE46E27705AA4009DD9C4 /* Assets.xcassets */,
 				C69BE47027705AA4009DD9C4 /* LaunchScreen.storyboard */,
 				C69BE47327705AA4009DD9C4 /* Info.plist */,
 				C69BE46B27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.xcdatamodeld */,
+				C69BE47B27705B4B009DD9C4 /* CollectionViewCell.swift */,
 			);
 			path = ExAlignedCollectionViewFlowLayout;
 			sourceTree = "<group>";
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69BE47627705AA4009DD9C4 /* Build configuration list for PBXNativeTarget "ExAlignedCollectionViewFlowLayout" */;
 			buildPhases = (
+				EBDB96C4738FF8BC932FF6E0 /* [CP] Check Pods Manifest.lock */,
 				C69BE45B27705AA3009DD9C4 /* Sources */,
 				C69BE45C27705AA3009DD9C4 /* Frameworks */,
 				C69BE45D27705AA3009DD9C4 /* Resources */,
+				6892A180090A8CA67CCBE81C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +156,52 @@
 			files = (
 				C69BE47227705AA4009DD9C4 /* LaunchScreen.storyboard in Resources */,
 				C69BE46F27705AA4009DD9C4 /* Assets.xcassets in Resources */,
-				C69BE46A27705AA3009DD9C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6892A180090A8CA67CCBE81C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExAlignedCollectionViewFlowLayout/Pods-ExAlignedCollectionViewFlowLayout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExAlignedCollectionViewFlowLayout/Pods-ExAlignedCollectionViewFlowLayout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExAlignedCollectionViewFlowLayout/Pods-ExAlignedCollectionViewFlowLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDB96C4738FF8BC932FF6E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExAlignedCollectionViewFlowLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C69BE45B27705AA3009DD9C4 /* Sources */ = {
@@ -143,6 +210,7 @@
 			files = (
 				C69BE46D27705AA3009DD9C4 /* ExAlignedCollectionViewFlowLayout.xcdatamodeld in Sources */,
 				C69BE46727705AA3009DD9C4 /* ViewController.swift in Sources */,
+				C69BE47C27705B4B009DD9C4 /* CollectionViewCell.swift in Sources */,
 				C69BE46327705AA3009DD9C4 /* AppDelegate.swift in Sources */,
 				C69BE46527705AA3009DD9C4 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C69BE46827705AA3009DD9C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C69BE46927705AA3009DD9C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C69BE47027705AA4009DD9C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +348,7 @@
 		};
 		C69BE47727705AA4009DD9C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC7B781F67F97505608FEAD /* Pods-ExAlignedCollectionViewFlowLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,7 +359,6 @@
 				INFOPLIST_FILE = ExAlignedCollectionViewFlowLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +376,7 @@
 		};
 		C69BE47827705AA4009DD9C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74962020BD24D14744661606 /* Pods-ExAlignedCollectionViewFlowLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,7 +387,6 @@
 				INFOPLIST_FILE = ExAlignedCollectionViewFlowLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,32 @@
+PODS:
+  - AlignedCollectionViewFlowLayout (1.1.2)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - SnapKit (5.0.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - AlignedCollectionViewFlowLayout
+  - Reusable
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - AlignedCollectionViewFlowLayout
+    - Reusable
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 64f7a6e839ab9d91bb2aa516a8004f52567c8f97
+
+COCOAPODS: 1.11.2
